@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+  background: #f2f4f6;
+}
+.wrapper {
+  width: 400px;
+  padding: 120px;
+  background: #fff0;
+  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+  border: 1px solid rgb(64 64 64 / 5%);
+}
+div#stopwatch {
+  font-size: 46px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: right;
+  padding: 0 100px 15px 110px;
+}
+ul#buttons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul#buttons button {
+  background: #fff0;
+  border: transparent;
+  width: 100px;
+  color: #fff0;
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  padding: 100px 0 10px 20px;
+  cursor: pointer;
+}
